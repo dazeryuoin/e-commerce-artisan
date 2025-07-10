@@ -19,6 +19,7 @@ Route::get('/', function () {
 
 Route::redirect('/', '/beranda');
 
+Route::get('/beranda',[]);
 Route::get('/portal', function () {
     return view('index');
 });

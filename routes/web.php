@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::redirect('/', '/beranda');
 
 Route::get('/portal', function () {
     return view('index');

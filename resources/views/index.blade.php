@@ -8,7 +8,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
       <!-- Place favicon.ico in the root directory -->
-      <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.png">
+      <link rel="shortcut icon" type="image/x-icon" href="{{ asset('frontend/assets/img/logo/favicon.png') }}">
 
       <!-- CSS here -->
       <link rel="stylesheet" href="{{ asset('frontend/assets/css/bootstrap.css') }}">
@@ -40,7 +40,7 @@
                            <circle stroke="red" cx="190" cy="190" r="180" stroke-width="6" stroke-linecap="round"></circle>
                        </svg>
                      </div>
-                     <img src="assets/img/logo/preloader/preloader-icon.svg" alt="">
+                     <img src="./frontend/assets/img/logo/preloader/preloader-icon.svg" alt="">
                   </div>
                   <h3 class="tp-preloader-title">Shofy</h3>
                   <p class="tp-preloader-subtitle">Loading</p>
@@ -75,7 +75,7 @@
                <div class="offcanvas__top mb-70 d-flex justify-content-between align-items-center">
                   <div class="offcanvas__logo logo">
                      <a href="index.html">
-                        <img src="assets/img/logo/logo.svg" alt="logo">
+                        <img src="./frontend/assets/img/logo/logo.svg" alt="logo">
                      </a>
                   </div>
                </div>
@@ -93,7 +93,7 @@
                <div class="offcanvas__contact align-items-center d-none">
                   <div class="offcanvas__contact-icon mr-20">
                      <span>
-                        <img src="assets/img/icon/contact.png" alt="">
+                        <img src="./frontend/assets/img/icon/contact.png" alt="">
                      </span>
                   </div>
                   <div class="offcanvas__contact-content">
@@ -120,7 +120,7 @@
                   <div class="offcanvas__select language">
                      <div class="offcanvas__lang d-flex align-items-center justify-content-md-end">
                         <div class="offcanvas__lang-img mr-15">
-                           <img src="assets/img/icon/language-flag.png" alt="">
+                           <img src="./frontend/assets/img/icon/language-flag.png" alt="">
                         </div>
                         <div class="offcanvas__lang-wrapper">
                            <span class="offcanvas__lang-selected-lang tp-lang-toggle" id="tp-offcanvas-lang-toggle">English</span>
@@ -241,7 +241,7 @@
                      <div class="cartmini__widget-item">
                          <div class="cartmini__thumb">
                            <a href="product-details.html">
-                              <img src="assets/img/product/product-1.jpg" alt="">
+                              <img src="./frontend/assets/img/product/product-1.jpg" alt="">
                            </a>
                          </div>
                          <div class="cartmini__content">
@@ -257,7 +257,7 @@
                  <!-- for wp -->
                  <!-- if no item in cart -->
                  <div class="cartmini__empty text-center d-none">
-                     <img src="assets/img/product/cartmini/empty-cart.png" alt="">
+                     <img src="./frontend/assets/img/product/cartmini/empty-cart.png" alt="">
                      <p>Your Cart is empty</p>
                      <a href="shop.html" class="tp-btn">Go to Shop</a>
                  </div>
@@ -300,7 +300,7 @@
                            </div>
                            <div class="logo">
                               <a href="index.html">
-                                 <img src="assets/img/logo/logo-white.svg" alt="logo">
+                                 <img src="./frontend/assets/img/logo/logo-white.svg" alt="logo">
                               </a>
                            </div>
                         </div>
@@ -403,7 +403,7 @@
                                     <div class="home-menu-item ">
                                        <a href="index.html">
                                           <div class="home-menu-thumb p-relative fix">
-                                             <img src="assets/img/menu/menu-home-1.jpg" alt="">
+                                             <img src="./frontend/assets/img/menu/menu-home-1.jpg" alt="">
                                           </div>
                                           <div class="home-menu-content">
                                              <h5 class="home-menu-title">Electronics </h5>
@@ -415,7 +415,7 @@
                                     <div class="home-menu-item ">
                                        <a href="index-2.html">
                                           <div class="home-menu-thumb p-relative fix">
-                                             <img src="assets/img/menu/menu-home-2.jpg" alt="">
+                                             <img src="./frontend/assets/img/menu/menu-home-2.jpg" alt="">
                                           </div>
                                           <div class="home-menu-content">
                                              <h5 class="home-menu-title">Fashion</h5>
@@ -427,7 +427,7 @@
                                     <div class="home-menu-item ">
                                        <a href="index-3.html">
                                           <div class="home-menu-thumb p-relative fix">
-                                             <img src="assets/img/menu/menu-home-3.jpg" alt="">
+                                             <img src="./frontend/assets/img/menu/menu-home-3.jpg" alt="">
                                           </div>
                                           <div class="home-menu-content">
                                              <h5 class="home-menu-title">Beauty</h5>
@@ -439,7 +439,7 @@
                                     <div class="home-menu-item ">
                                        <a href="index-4.html">
                                           <div class="home-menu-thumb p-relative fix">
-                                             <img src="assets/img/menu/menu-home-4.jpg" alt="">
+                                             <img src="./frontend/assets/img/menu/menu-home-4.jpg" alt="">
                                           </div>
                                           <div class="home-menu-content">
                                              <h5 class="home-menu-title">Jewelry </h5>
@@ -451,7 +451,7 @@
                                     <div class="home-menu-item ">
                                        <a href="index-5.html">
                                           <div class="home-menu-thumb p-relative fix">
-                                             <img src="assets/img/menu/menu-home-5.jpg" alt="">
+                                             <img src="./frontend/assets/img/menu/menu-home-5.jpg" alt="">
                                           </div>
                                           <div class="home-menu-content">
                                              <h5 class="home-menu-title">Grocery</h5>
@@ -488,7 +488,7 @@
                                  <ul>
                                     <li>
                                        <div class="mega-menu-img">
-                                          <img src="assets/img/header/menu/grocery/img-1.png" alt="">
+                                          <img src="./frontend/assets/img/header/menu/grocery/img-1.png" alt="">
                                        </div>
                                        <a href="shop.html" class="mega-menu-title">Fresh Fruits</a>
                                        <ul>
@@ -505,7 +505,7 @@
                                  <ul>
                                     <li>
                                        <div class="mega-menu-img">
-                                          <img src="assets/img/header/menu/grocery/img-2.png" alt="">
+                                          <img src="./frontend/assets/img/header/menu/grocery/img-2.png" alt="">
                                        </div>
                                        <a href="shop.html" class="mega-menu-title">Fresh Fruits</a>
                                        <ul>
@@ -522,13 +522,13 @@
 
                               <div class="mega-menu-brand">
                                  <a href="#">
-                                    <img src="assets/img/header/menu/grocery/menu-brand-1.png" alt="">
+                                    <img src="./frontend/assets/img/header/menu/grocery/menu-brand-1.png" alt="">
                                  </a>
                                  <a href="#">
-                                    <img src="assets/img/header/menu/grocery/menu-brand-2.png" alt="">
+                                    <img src="./frontend/assets/img/header/menu/grocery/menu-brand-2.png" alt="">
                                  </a>
                                  <a href="#">
-                                    <img src="assets/img/header/menu/grocery/menu-brand-3.png" alt="">
+                                    <img src="./frontend/assets/img/header/menu/grocery/menu-brand-3.png" alt="">
                                  </a>
                               </div>
                            </div>
@@ -537,7 +537,7 @@
                               <div class="menu-shop-item d-flex align-items-center">
                                  <div class="menu-shop-thumb">
                                     <a href="product-details.html">
-                                       <img src="assets/img/header/menu/grocery/img-3.png" alt="">
+                                       <img src="./frontend/assets/img/header/menu/grocery/img-3.png" alt="">
                                     </a>
                                  </div>
                                  <div class="menu-shop-content">
@@ -557,7 +557,7 @@
                               <div class="menu-shop-item d-flex align-items-center">
                                  <div class="menu-shop-thumb">
                                     <a href="product-details.html">
-                                       <img src="assets/img/header/menu/grocery/img-4.png" alt="">
+                                       <img src="./frontend/assets/img/header/menu/grocery/img-4.png" alt="">
                                     </a>
                                  </div>
                                  <div class="menu-shop-content">
@@ -577,7 +577,7 @@
                               <div class="menu-shop-item d-flex align-items-center">
                                  <div class="menu-shop-thumb">
                                     <a href="product-details.html">
-                                       <img src="assets/img/header/menu/grocery/img-5.png" alt="">
+                                       <img src="./frontend/assets/img/header/menu/grocery/img-5.png" alt="">
                                     </a>
                                  </div>
                                  <div class="menu-shop-content">
@@ -597,7 +597,7 @@
                               <div class="menu-shop-item d-flex align-items-center">
                                  <div class="menu-shop-thumb">
                                     <a href="product-details.html">
-                                       <img src="assets/img/header/menu/grocery/img-6.png" alt="">
+                                       <img src="./frontend/assets/img/header/menu/grocery/img-6.png" alt="">
                                     </a>
                                  </div>
                                  <div class="menu-shop-content">
@@ -688,16 +688,16 @@
                   <div class="tp-slider-item-5 scene tp-slider-height-5 swiper-slide d-flex align-items-center" data-bg-color="#F3F3F3">
                      <div class="tp-slider-shape-5 ">
                         <div class="tp-slider-shape-5-1">
-                           <img class="layer" data-depth=".2" src="assets/img/slider/5/shape/shape-1.png" alt="">
+                           <img class="layer" data-depth=".2" src="./frontend/assets/img/slider/5/shape/shape-1.png" alt="">
                         </div>
                         <div class="tp-slider-shape-5-2">
-                           <img class="layer" data-depth=".2" src="assets/img/slider/5/shape/shape-2.png" alt="">
+                           <img class="layer" data-depth=".2" src="./frontend/assets/img/slider/5/shape/shape-2.png" alt="">
                         </div>
                         <div class="tp-slider-shape-5-3">
-                           <img class="layer" data-depth=".2" src="assets/img/slider/5/shape/shape-3.png" alt="">
+                           <img class="layer" data-depth=".2" src="./frontend/assets/img/slider/5/shape/shape-3.png" alt="">
                         </div>
                         <div class="tp-slider-shape-5-4">
-                           <img class="layer" data-depth=".2" src="assets/img/slider/5/shape/shape-4.png" alt="">
+                           <img class="layer" data-depth=".2" src="./frontend/assets/img/slider/5/shape/shape-4.png" alt="">
                         </div>
                      </div>
                      <div class="container">
@@ -705,7 +705,7 @@
                            <div class="col-xxl-7 col-xl-7 col-lg-6">
                               <div class="tp-slider-content-5 p-relative z-index-1">
                                  <div class="tp-slider-subtitle-img">
-                                    <img src="assets/img/slider/5/subtitle.png" alt="">
+                                    <img src="./frontend/assets/img/slider/5/subtitle.png" alt="">
                                  </div>
                                  <h3 class="tp-slider-title-5">The Online <br>Grocery Store</h3>
 
@@ -717,10 +717,10 @@
                            <div class="col-xxl-5 col-xl-5 col-lg-6">
                               <div class="tp-slider-thumb-wrapper-5 p-relative">
                                  <div class="tp-slider-thumb-shape-5 one d-none d-sm-block">
-                                    <img data-depth="0.1" class="layer offer" src="assets/img/slider/5/shape/offer.png" alt="">
+                                    <img data-depth="0.1" class="layer offer" src="./frontend/assets/img/slider/5/shape/offer.png" alt="">
                                  </div>
                                  <div class="tp-slider-thumb-5 main-img">
-                                    <img data-depth="0.2" class="layer" src="assets/img/slider/5/slider-1.png" alt="">
+                                    <img data-depth="0.2" class="layer" src="./frontend/assets/img/slider/5/slider-1.png" alt="">
                                     <span class="tp-slider-thumb-5-gradient"></span>
                                  </div>
                               </div>
@@ -756,7 +756,7 @@
                            <div class="swiper-wrapper">
                               <div class="tp-category-item-5 p-relative z-index-1 fix swiper-slide" data-bg-color="#E5EFE2">
                                  <a href="shop-category.html" >
-                                    <div class="tp-category-thumb-5 include-bg" data-background="assets/img/category/5/category-1.jpg"></div>
+                                    <div class="tp-category-thumb-5 include-bg" data-background="./frontend/assets/img/category/5/category-1.jpg"></div>
                                     <div class="tp-category-content-5">
                                        <h3 class="tp-category-title-5">Frozen Foods</h3>
                                        <span data-text-color="#5C8C10">2 Items</span>
@@ -765,7 +765,7 @@
                               </div>
                               <div class="tp-category-item-5 p-relative z-index-1 fix swiper-slide" data-bg-color="#F5EFEC">
                                  <a href="shop-category.html" >
-                                    <div class="tp-category-thumb-5 include-bg" data-background="assets/img/category/5/category-2.jpg"></div>
+                                    <div class="tp-category-thumb-5 include-bg" data-background="./frontend/assets/img/category/5/category-2.jpg"></div>
                                     <div class="tp-category-content-5">
                                        <h3 class="tp-category-title-5">Meat and Fish</h3>
                                        <span data-text-color="#FA3737">4 Items</span>
@@ -774,7 +774,7 @@
                               </div>
                               <div class="tp-category-item-5 p-relative z-index-1 fix swiper-slide" data-bg-color="#F2E0E3">
                                  <a href="shop-category.html" >
-                                    <div class="tp-category-thumb-5 include-bg" data-background="assets/img/category/5/category-3.jpg"></div>
+                                    <div class="tp-category-thumb-5 include-bg" data-background="./frontend/assets/img/category/5/category-3.jpg"></div>
                                     <div class="tp-category-content-5">
                                        <h3 class="tp-category-title-5">Sweets</h3>
                                        <span data-text-color="#F87117">6 Items</span>
@@ -783,7 +783,7 @@
                               </div>
                               <div class="tp-category-item-5 p-relative z-index-1 fix swiper-slide" data-bg-color="#E6F1E0">
                                  <a href="shop-category.html" >
-                                    <div class="tp-category-thumb-5 include-bg" data-background="assets/img/category/5/category-4.jpg"></div>
+                                    <div class="tp-category-thumb-5 include-bg" data-background="./frontend/assets/img/category/5/category-4.jpg"></div>
                                     <div class="tp-category-content-5">
                                        <h3 class="tp-category-title-5">Vegetables</h3>
                                        <span data-text-color="#5C8C10">2 Items</span>
@@ -792,7 +792,7 @@
                               </div>
                               <div class="tp-category-item-5 p-relative z-index-1 fix swiper-slide" data-bg-color="#F2E3D5">
                                  <a href="shop-category.html" >
-                                    <div class="tp-category-thumb-5 include-bg" data-background="assets/img/category/5/category-5.jpg"></div>
+                                    <div class="tp-category-thumb-5 include-bg" data-background="./frontend/assets/img/category/5/category-5.jpg"></div>
                                     <div class="tp-category-content-5">
                                        <h3 class="tp-category-title-5">Bakery</h3>
                                        <span data-text-color="#FF7B02">11 Items</span>
@@ -801,7 +801,7 @@
                               </div>
                               <div class="tp-category-item-5 p-relative z-index-1 fix swiper-slide" data-bg-color="#F6E9E8">
                                  <a href="shop-category.html" >
-                                    <div class="tp-category-thumb-5 include-bg" data-background="assets/img/category/5/category-6.jpg"></div>
+                                    <div class="tp-category-thumb-5 include-bg" data-background="./frontend/assets/img/category/5/category-6.jpg"></div>
                                     <div class="tp-category-content-5">
                                        <h3 class="tp-category-title-5">Fresh Fruits</h3>
                                        <span data-text-color="#F63C3B">5 Items</span>
@@ -867,7 +867,7 @@
                                  <div class="tp-product-item-5 p-relative white-bg mb-40">
                                     <div class="tp-product-thumb-5 w-img fix mb-15">
                                        <a href="product-details.html">
-                                          <img src="assets/img/product/5/product-1.jpg" alt="">
+                                          <img src="./frontend/assets/img/product/5/product-1.jpg" alt="">
                                        </a>
 
                                        <!-- product action -->
@@ -936,7 +936,7 @@
                                  <div class="tp-product-item-5 p-relative white-bg mb-40">
                                     <div class="tp-product-thumb-5 w-img fix mb-15">
                                        <a href="product-details.html">
-                                          <img src="assets/img/product/5/product-2.jpg" alt="">
+                                          <img src="./frontend/assets/img/product/5/product-2.jpg" alt="">
                                        </a>
 
                                        <!-- product action -->
@@ -1005,7 +1005,7 @@
                                  <div class="tp-product-item-5 p-relative white-bg mb-40">
                                     <div class="tp-product-thumb-5 w-img fix mb-15">
                                        <a href="product-details.html">
-                                          <img src="assets/img/product/5/product-3.jpg" alt="">
+                                          <img src="./frontend/assets/img/product/5/product-3.jpg" alt="">
                                        </a>
 
                                        <!-- product action -->
@@ -1074,7 +1074,7 @@
                                  <div class="tp-product-item-5 p-relative white-bg mb-40">
                                     <div class="tp-product-thumb-5 w-img fix mb-15">
                                        <a href="product-details.html">
-                                          <img src="assets/img/product/5/product-4.jpg" alt="">
+                                          <img src="./frontend/assets/img/product/5/product-4.jpg" alt="">
                                        </a>
 
                                        <!-- product action -->
@@ -1143,7 +1143,7 @@
                                  <div class="tp-product-item-5 p-relative white-bg mb-40">
                                     <div class="tp-product-thumb-5 w-img fix mb-15">
                                        <a href="product-details.html">
-                                          <img src="assets/img/product/5/product-5.jpg" alt="">
+                                          <img src="./frontend/assets/img/product/5/product-5.jpg" alt="">
                                        </a>
 
                                        <!-- product action -->
@@ -1212,7 +1212,7 @@
                                  <div class="tp-product-item-5 p-relative white-bg mb-40">
                                     <div class="tp-product-thumb-5 w-img fix mb-15">
                                        <a href="product-details.html">
-                                          <img src="assets/img/product/5/product-6.jpg" alt="">
+                                          <img src="./frontend/assets/img/product/5/product-6.jpg" alt="">
                                        </a>
 
                                        <!-- product action -->
@@ -1281,7 +1281,7 @@
                                  <div class="tp-product-item-5 p-relative white-bg mb-40">
                                     <div class="tp-product-thumb-5 w-img fix mb-15">
                                        <a href="product-details.html">
-                                          <img src="assets/img/product/5/product-7.jpg" alt="">
+                                          <img src="./frontend/assets/img/product/5/product-7.jpg" alt="">
                                        </a>
 
                                        <!-- product action -->
@@ -1350,7 +1350,7 @@
                                  <div class="tp-product-item-5 p-relative white-bg mb-40">
                                     <div class="tp-product-thumb-5 w-img fix mb-15">
                                        <a href="product-details.html">
-                                          <img src="assets/img/product/5/product-8.jpg" alt="">
+                                          <img src="./frontend/assets/img/product/5/product-8.jpg" alt="">
                                        </a>
 
                                        <!-- product action -->
@@ -1423,7 +1423,7 @@
                                  <div class="tp-product-item-5 p-relative white-bg mb-40">
                                     <div class="tp-product-thumb-5 w-img fix mb-15">
                                        <a href="product-details.html">
-                                          <img src="assets/img/product/5/product-5.jpg" alt="">
+                                          <img src="./frontend/assets/img/product/5/product-5.jpg" alt="">
                                        </a>
 
                                        <!-- product action -->
@@ -1492,7 +1492,7 @@
                                  <div class="tp-product-item-5 p-relative white-bg mb-40">
                                     <div class="tp-product-thumb-5 w-img fix mb-15">
                                        <a href="product-details.html">
-                                          <img src="assets/img/product/5/product-6.jpg" alt="">
+                                          <img src="./frontend/assets/img/product/5/product-6.jpg" alt="">
                                        </a>
 
                                        <!-- product action -->
@@ -1561,7 +1561,7 @@
                                  <div class="tp-product-item-5 p-relative white-bg mb-40">
                                     <div class="tp-product-thumb-5 w-img fix mb-15">
                                        <a href="product-details.html">
-                                          <img src="assets/img/product/5/product-7.jpg" alt="">
+                                          <img src="./frontend/assets/img/product/5/product-7.jpg" alt="">
                                        </a>
 
                                        <!-- product action -->
@@ -1630,7 +1630,7 @@
                                  <div class="tp-product-item-5 p-relative white-bg mb-40">
                                     <div class="tp-product-thumb-5 w-img fix mb-15">
                                        <a href="product-details.html">
-                                          <img src="assets/img/product/5/product-8.jpg" alt="">
+                                          <img src="./frontend/assets/img/product/5/product-8.jpg" alt="">
                                        </a>
 
                                        <!-- product action -->
@@ -1699,7 +1699,7 @@
                                  <div class="tp-product-item-5 p-relative white-bg mb-40">
                                     <div class="tp-product-thumb-5 w-img fix mb-15">
                                        <a href="product-details.html">
-                                          <img src="assets/img/product/5/product-1.jpg" alt="">
+                                          <img src="./frontend/assets/img/product/5/product-1.jpg" alt="">
                                        </a>
 
                                        <!-- product action -->
@@ -1768,7 +1768,7 @@
                                  <div class="tp-product-item-5 p-relative white-bg mb-40">
                                     <div class="tp-product-thumb-5 w-img fix mb-15">
                                        <a href="product-details.html">
-                                          <img src="assets/img/product/5/product-2.jpg" alt="">
+                                          <img src="./frontend/assets/img/product/5/product-2.jpg" alt="">
                                        </a>
 
                                        <!-- product action -->
@@ -1837,7 +1837,7 @@
                                  <div class="tp-product-item-5 p-relative white-bg mb-40">
                                     <div class="tp-product-thumb-5 w-img fix mb-15">
                                        <a href="product-details.html">
-                                          <img src="assets/img/product/5/product-3.jpg" alt="">
+                                          <img src="./frontend/assets/img/product/5/product-3.jpg" alt="">
                                        </a>
 
                                        <!-- product action -->
@@ -1906,7 +1906,7 @@
                                  <div class="tp-product-item-5 p-relative white-bg mb-40">
                                     <div class="tp-product-thumb-5 w-img fix mb-15">
                                        <a href="product-details.html">
-                                          <img src="assets/img/product/5/product-4.jpg" alt="">
+                                          <img src="./frontend/assets/img/product/5/product-4.jpg" alt="">
                                        </a>
 
                                        <!-- product action -->
@@ -1979,7 +1979,7 @@
                                  <div class="tp-product-item-5 p-relative white-bg mb-40">
                                     <div class="tp-product-thumb-5 w-img fix mb-15">
                                        <a href="product-details.html">
-                                          <img src="assets/img/product/5/product-7.jpg" alt="">
+                                          <img src="./frontend/assets/img/product/5/product-7.jpg" alt="">
                                        </a>
 
                                        <!-- product action -->
@@ -2048,7 +2048,7 @@
                                  <div class="tp-product-item-5 p-relative white-bg mb-40">
                                     <div class="tp-product-thumb-5 w-img fix mb-15">
                                        <a href="product-details.html">
-                                          <img src="assets/img/product/5/product-8.jpg" alt="">
+                                          <img src="./frontend/assets/img/product/5/product-8.jpg" alt="">
                                        </a>
 
                                        <!-- product action -->
@@ -2117,7 +2117,7 @@
                                  <div class="tp-product-item-5 p-relative white-bg mb-40">
                                     <div class="tp-product-thumb-5 w-img fix mb-15">
                                        <a href="product-details.html">
-                                          <img src="assets/img/product/5/product-1.jpg" alt="">
+                                          <img src="./frontend/assets/img/product/5/product-1.jpg" alt="">
                                        </a>
 
                                        <!-- product action -->
@@ -2186,7 +2186,7 @@
                                  <div class="tp-product-item-5 p-relative white-bg mb-40">
                                     <div class="tp-product-thumb-5 w-img fix mb-15">
                                        <a href="product-details.html">
-                                          <img src="assets/img/product/5/product-2.jpg" alt="">
+                                          <img src="./frontend/assets/img/product/5/product-2.jpg" alt="">
                                        </a>
 
                                        <!-- product action -->
@@ -2255,7 +2255,7 @@
                                  <div class="tp-product-item-5 p-relative white-bg mb-40">
                                     <div class="tp-product-thumb-5 w-img fix mb-15">
                                        <a href="product-details.html">
-                                          <img src="assets/img/product/5/product-5.jpg" alt="">
+                                          <img src="./frontend/assets/img/product/5/product-5.jpg" alt="">
                                        </a>
 
                                        <!-- product action -->
@@ -2324,7 +2324,7 @@
                                  <div class="tp-product-item-5 p-relative white-bg mb-40">
                                     <div class="tp-product-thumb-5 w-img fix mb-15">
                                        <a href="product-details.html">
-                                          <img src="assets/img/product/5/product-6.jpg" alt="">
+                                          <img src="./frontend/assets/img/product/5/product-6.jpg" alt="">
                                        </a>
 
                                        <!-- product action -->
@@ -2393,7 +2393,7 @@
                                  <div class="tp-product-item-5 p-relative white-bg mb-40">
                                     <div class="tp-product-thumb-5 w-img fix mb-15">
                                        <a href="product-details.html">
-                                          <img src="assets/img/product/5/product-3.jpg" alt="">
+                                          <img src="./frontend/assets/img/product/5/product-3.jpg" alt="">
                                        </a>
 
                                        <!-- product action -->
@@ -2462,7 +2462,7 @@
                                  <div class="tp-product-item-5 p-relative white-bg mb-40">
                                     <div class="tp-product-thumb-5 w-img fix mb-15">
                                        <a href="product-details.html">
-                                          <img src="assets/img/product/5/product-4.jpg" alt="">
+                                          <img src="./frontend/assets/img/product/5/product-4.jpg" alt="">
                                        </a>
 
                                        <!-- product action -->
@@ -2535,7 +2535,7 @@
                                  <div class="tp-product-item-5 p-relative white-bg mb-40">
                                     <div class="tp-product-thumb-5 w-img fix mb-15">
                                        <a href="product-details.html">
-                                          <img src="assets/img/product/5/product-5.jpg" alt="">
+                                          <img src="./frontend/assets/img/product/5/product-5.jpg" alt="">
                                        </a>
 
                                        <!-- product action -->
@@ -2604,7 +2604,7 @@
                                  <div class="tp-product-item-5 p-relative white-bg mb-40">
                                     <div class="tp-product-thumb-5 w-img fix mb-15">
                                        <a href="product-details.html">
-                                          <img src="assets/img/product/5/product-6.jpg" alt="">
+                                          <img src="./frontend/assets/img/product/5/product-6.jpg" alt="">
                                        </a>
 
                                        <!-- product action -->
@@ -2673,7 +2673,7 @@
                                  <div class="tp-product-item-5 p-relative white-bg mb-40">
                                     <div class="tp-product-thumb-5 w-img fix mb-15">
                                        <a href="product-details.html">
-                                          <img src="assets/img/product/5/product-3.jpg" alt="">
+                                          <img src="./frontend/assets/img/product/5/product-3.jpg" alt="">
                                        </a>
 
                                        <!-- product action -->
@@ -2742,7 +2742,7 @@
                                  <div class="tp-product-item-5 p-relative white-bg mb-40">
                                     <div class="tp-product-thumb-5 w-img fix mb-15">
                                        <a href="product-details.html">
-                                          <img src="assets/img/product/5/product-4.jpg" alt="">
+                                          <img src="./frontend/assets/img/product/5/product-4.jpg" alt="">
                                        </a>
 
                                        <!-- product action -->
@@ -2811,7 +2811,7 @@
                                  <div class="tp-product-item-5 p-relative white-bg mb-40">
                                     <div class="tp-product-thumb-5 w-img fix mb-15">
                                        <a href="product-details.html">
-                                          <img src="assets/img/product/5/product-7.jpg" alt="">
+                                          <img src="./frontend/assets/img/product/5/product-7.jpg" alt="">
                                        </a>
 
                                        <!-- product action -->
@@ -2880,7 +2880,7 @@
                                  <div class="tp-product-item-5 p-relative white-bg mb-40">
                                     <div class="tp-product-thumb-5 w-img fix mb-15">
                                        <a href="product-details.html">
-                                          <img src="assets/img/product/5/product-8.jpg" alt="">
+                                          <img src="./frontend/assets/img/product/5/product-8.jpg" alt="">
                                        </a>
 
                                        <!-- product action -->
@@ -2949,7 +2949,7 @@
                                  <div class="tp-product-item-5 p-relative white-bg mb-40">
                                     <div class="tp-product-thumb-5 w-img fix mb-15">
                                        <a href="product-details.html">
-                                          <img src="assets/img/product/5/product-1.jpg" alt="">
+                                          <img src="./frontend/assets/img/product/5/product-1.jpg" alt="">
                                        </a>
 
                                        <!-- product action -->
@@ -3018,7 +3018,7 @@
                                  <div class="tp-product-item-5 p-relative white-bg mb-40">
                                     <div class="tp-product-thumb-5 w-img fix mb-15">
                                        <a href="product-details.html">
-                                          <img src="assets/img/product/5/product-2.jpg" alt="">
+                                          <img src="./frontend/assets/img/product/5/product-2.jpg" alt="">
                                        </a>
 
                                        <!-- product action -->
@@ -3097,26 +3097,26 @@
          <!-- deal area start -->
          <section class="tp-deal-area pt-135 pb-140 p-relative z-index-1 fix scene" data-bg-color="#F3F3F3">
             <div class="tp-deal-shape">
-               <img class="tp-deal-shape-7" src="assets/img/deal/shape/shape-7.png" alt="">
+               <img class="tp-deal-shape-7" src="./frontend/assets/img/deal/shape/shape-7.png" alt="">
             </div>
             <div class="tp-deal-shape">
                <div class="tp-deal-shape-1">
-                  <img class="layer" data-depth=".2" src="assets/img/deal/shape/shape-1.png" alt="">
+                  <img class="layer" data-depth=".2" src="./frontend/assets/img/deal/shape/shape-1.png" alt="">
                </div>
                <div class="tp-deal-shape-2">
-                  <img class="layer" data-depth=".3" src="assets/img/deal/shape/shape-2.png" alt="">
+                  <img class="layer" data-depth=".3" src="./frontend/assets/img/deal/shape/shape-2.png" alt="">
                </div>
                <div class="tp-deal-shape-3">
-                  <img class="layer" data-depth=".4" src="assets/img/deal/shape/shape-3.png" alt="">
+                  <img class="layer" data-depth=".4" src="./frontend/assets/img/deal/shape/shape-3.png" alt="">
                </div>
                <div class="tp-deal-shape-4">
-                  <img class="layer" data-depth=".5" src="assets/img/deal/shape/shape-4.png" alt="">
+                  <img class="layer" data-depth=".5" src="./frontend/assets/img/deal/shape/shape-4.png" alt="">
                </div>
                <div class="tp-deal-shape-5">
-                  <img class="layer" data-depth=".6" src="assets/img/deal/shape/shape-5.png" alt="">
+                  <img class="layer" data-depth=".6" src="./frontend/assets/img/deal/shape/shape-5.png" alt="">
                </div>
                <div class="tp-deal-shape-6">
-                  <img class="layer" data-depth=".7" src="assets/img/deal/shape/shape-6.png" alt="">
+                  <img class="layer" data-depth=".7" src="./frontend/assets/img/deal/shape/shape-6.png" alt="">
                </div>
             </div>
             <div class="container">
@@ -3158,7 +3158,7 @@
                      <div class="tp-product-side-banner text-center mb-60" data-bg-color="#EEEBE4">
                         <div class="tp-product-side-banner-content">
                            <div class="tp-product-side-banner-subtitle">
-                              <img src="assets/img/product/side/pre-title.png" alt="">
+                              <img src="./frontend/assets/img/product/side/pre-title.png" alt="">
                            </div>
                            <h3 class="tp-product-side-banner-title"> Get Up to 26% Off Vegetables </h3>
 
@@ -3172,7 +3172,7 @@
                               </a>
                            </div>
                            <div class="tp-product-side-banner-thumb">
-                              <img src="assets/img/product/side/side-1.png" alt="">
+                              <img src="./frontend/assets/img/product/side/side-1.png" alt="">
                            </div>
                         </div>
                      </div>
@@ -3190,7 +3190,7 @@
                            <div class="tp-product-sm-item-5 d-flex align-items-center">
                               <div class="tp-product-sm-thumb-5 fix">
                                  <a href="product-details.html">
-                                    <img src="assets/img/product/sm/5/product-sm-1.jpg" alt="">
+                                    <img src="./frontend/assets/img/product/sm/5/product-sm-1.jpg" alt="">
                                  </a>
                               </div>
                               <div class="tp-product-sm-content-5">
@@ -3216,7 +3216,7 @@
                            <div class="tp-product-sm-item-5 d-flex align-items-center">
                               <div class="tp-product-sm-thumb-5 fix">
                                  <a href="product-details.html">
-                                    <img src="assets/img/product/sm/5/product-sm-2.jpg" alt="">
+                                    <img src="./frontend/assets/img/product/sm/5/product-sm-2.jpg" alt="">
                                  </a>
                               </div>
                               <div class="tp-product-sm-content-5">
@@ -3242,7 +3242,7 @@
                            <div class="tp-product-sm-item-5 d-flex align-items-center">
                               <div class="tp-product-sm-thumb-5 fix">
                                  <a href="product-details.html">
-                                    <img src="assets/img/product/sm/5/product-sm-3.jpg" alt="">
+                                    <img src="./frontend/assets/img/product/sm/5/product-sm-3.jpg" alt="">
                                  </a>
                               </div>
                               <div class="tp-product-sm-content-5">
@@ -3281,7 +3281,7 @@
                            <div class="tp-product-sm-item-5 d-flex align-items-center">
                               <div class="tp-product-sm-thumb-5 fix">
                                  <a href="product-details.html">
-                                    <img src="assets/img/product/sm/5/product-sm-4.jpg" alt="">
+                                    <img src="./frontend/assets/img/product/sm/5/product-sm-4.jpg" alt="">
                                  </a>
                               </div>
                               <div class="tp-product-sm-content-5">
@@ -3307,7 +3307,7 @@
                            <div class="tp-product-sm-item-5 d-flex align-items-center">
                               <div class="tp-product-sm-thumb-5 fix">
                                  <a href="product-details.html">
-                                    <img src="assets/img/product/sm/5/product-sm-5.jpg" alt="">
+                                    <img src="./frontend/assets/img/product/sm/5/product-sm-5.jpg" alt="">
                                  </a>
                               </div>
                               <div class="tp-product-sm-content-5">
@@ -3333,7 +3333,7 @@
                            <div class="tp-product-sm-item-5 d-flex align-items-center">
                               <div class="tp-product-sm-thumb-5 fix">
                                  <a href="product-details.html">
-                                    <img src="assets/img/product/sm/5/product-sm-6.jpg" alt="">
+                                    <img src="./frontend/assets/img/product/sm/5/product-sm-6.jpg" alt="">
                                  </a>
                               </div>
                               <div class="tp-product-sm-content-5">
@@ -3389,11 +3389,11 @@
                                     <div class="tp-testimonial-avater-wrapper-5 p-relative">
                                        <div class="tp-avater-rounded mr-60">
                                           <div class="tp-testimonial-avater-5 ">
-                                             <img src="assets/img/users/user-11.jpg" alt="">
+                                             <img src="./frontend/assets/img/users/user-11.jpg" alt="">
                                           </div>
                                        </div>
                                        <span class="quote-icon">
-                                          <img src="assets/img/testimonial/testimonial-quote-2.png" alt="">
+                                          <img src="./frontend/assets/img/testimonial/testimonial-quote-2.png" alt="">
                                        </span>
                                     </div>
 
@@ -3418,11 +3418,11 @@
                                     <div class="tp-testimonial-avater-wrapper-5 p-relative">
                                        <div class="tp-avater-rounded mr-60">
                                           <div class="tp-testimonial-avater-5 ">
-                                             <img src="assets/img/users/user-5.jpg" alt="">
+                                             <img src="./frontend/assets/img/users/user-5.jpg" alt="">
                                           </div>
                                        </div>
                                        <span class="quote-icon">
-                                          <img src="assets/img/testimonial/testimonial-quote-2.png" alt="">
+                                          <img src="./frontend/assets/img/testimonial/testimonial-quote-2.png" alt="">
                                        </span>
                                     </div>
 
@@ -3447,11 +3447,11 @@
                                     <div class="tp-testimonial-avater-wrapper-5 p-relative">
                                        <div class="tp-avater-rounded mr-60">
                                           <div class="tp-testimonial-avater-5 ">
-                                             <img src="assets/img/users/user-6.jpg" alt="">
+                                             <img src="./frontend/assets/img/users/user-6.jpg" alt="">
                                           </div>
                                        </div>
                                        <span class="quote-icon">
-                                          <img src="assets/img/testimonial/testimonial-quote-2.png" alt="">
+                                          <img src="./frontend/assets/img/testimonial/testimonial-quote-2.png" alt="">
                                        </span>
                                     </div>
 
@@ -3506,17 +3506,17 @@
                            <div class="swiper-wrapper">
                               <div class="tp-best-banner-item-5 p-relative fix swiper-slide">
                                  <a href="shop.html">
-                                    <div class="tp-best-banner-thumb-5 include-bg grey-bg" data-background="assets/img/banner/5/best-banner-1.jpg"></div>
+                                    <div class="tp-best-banner-thumb-5 include-bg grey-bg" data-background="./frontend/assets/img/banner/5/best-banner-1.jpg"></div>
                                  </a>
                               </div>
                               <div class="tp-best-banner-item-5 p-relative fix swiper-slide">
                                  <a href="shop.html">
-                                    <div class="tp-best-banner-thumb-5 include-bg grey-bg" data-background="assets/img/banner/5/best-banner-1.jpg"></div>
+                                    <div class="tp-best-banner-thumb-5 include-bg grey-bg" data-background="./frontend/assets/img/banner/5/best-banner-1.jpg"></div>
                                  </a>
                               </div>
                               <div class="tp-best-banner-item-5 p-relative fix swiper-slide">
                                  <a href="shop.html">
-                                    <div class="tp-best-banner-thumb-5 include-bg grey-bg" data-background="assets/img/banner/5/best-banner-1.jpg"></div>
+                                    <div class="tp-best-banner-thumb-5 include-bg grey-bg" data-background="./frontend/assets/img/banner/5/best-banner-1.jpg"></div>
                                  </a>
                               </div>
                            </div>
@@ -3542,7 +3542,7 @@
                                     <div class="tp-product-item-5 p-relative white-bg mb-40">
                                        <div class="tp-product-thumb-5 w-img fix mb-15">
                                           <a href="product-details.html">
-                                             <img src="assets/img/product/5/product-9.jpg" alt="">
+                                             <img src="./frontend/assets/img/product/5/product-9.jpg" alt="">
                                           </a>
 
                                           <!-- product action -->
@@ -3611,7 +3611,7 @@
                                     <div class="tp-product-item-5 p-relative white-bg mb-40">
                                        <div class="tp-product-thumb-5 w-img fix mb-15">
                                           <a href="product-details.html">
-                                             <img src="assets/img/product/5/product-10.jpg" alt="">
+                                             <img src="./frontend/assets/img/product/5/product-10.jpg" alt="">
                                           </a>
 
                                           <!-- product action -->
@@ -3680,7 +3680,7 @@
                                     <div class="tp-product-item-5 p-relative white-bg mb-40">
                                        <div class="tp-product-thumb-5 w-img fix mb-15">
                                           <a href="product-details.html">
-                                             <img src="assets/img/product/5/product-11.jpg" alt="">
+                                             <img src="./frontend/assets/img/product/5/product-11.jpg" alt="">
                                           </a>
 
                                           <!-- product action -->
@@ -3848,8 +3848,8 @@
          <section class="tp-cta-area fix pt-50 p-relative z-index-1">
             <div class="tp-cta-inner p-relative pt-80 pb-55" data-bg-color="#678E61">
                <div class="tp-cta-shape">
-                  <img class="tp-cta-shape-1" src="assets/img/cta/shape/cta-shape-1.png" alt="">
-                  <img class="tp-cta-shape-2" src="assets/img/cta/shape/cta-shape-2.png" alt="">
+                  <img class="tp-cta-shape-1" src="./frontend/assets/img/cta/shape/cta-shape-1.png" alt="">
+                  <img class="tp-cta-shape-2" src="./frontend/assets/img/cta/shape/cta-shape-2.png" alt="">
                </div>
                <div class="container">
                   <div class="row">
@@ -3894,7 +3894,7 @@
                      <div class="col-lg-6">
                         <div class="tp-cta-thumb">
                            <span class="tp-cta-thumb-mobile"></span>
-                           <img src="assets/img/cta/cta-thumb-1.jpg" alt="">
+                           <img src="./frontend/assets/img/cta/cta-thumb-1.jpg" alt="">
                         </div>
                         <span class="tp-cta-thumb-gradient"></span>
                      </div>
@@ -3913,38 +3913,38 @@
                         <nav>
                            <div class="nav nav-tabs flex-sm-column " id="productDetailsNavThumb" role="tablist">
                               <button class="nav-link active" id="nav-1-tab" data-bs-toggle="tab" data-bs-target="#nav-1" type="button" role="tab" aria-controls="nav-1" aria-selected="true">
-                                 <img src="assets/img/product/details/5/nav/product-details-nav-1.jpg" alt="">
+                                 <img src="./frontend/assets/img/product/details/5/nav/product-details-nav-1.jpg" alt="">
                               </button>
                               <button class="nav-link" id="nav-2-tab" data-bs-toggle="tab" data-bs-target="#nav-2" type="button" role="tab" aria-controls="nav-2" aria-selected="false">
-                                 <img src="assets/img/product/details/5/nav/product-details-nav-2.jpg" alt="">
+                                 <img src="./frontend/assets/img/product/details/5/nav/product-details-nav-2.jpg" alt="">
                               </button>
                               <button class="nav-link" id="nav-3-tab" data-bs-toggle="tab" data-bs-target="#nav-3" type="button" role="tab" aria-controls="nav-3" aria-selected="false">
-                                 <img src="assets/img/product/details/5/nav/product-details-nav-3.jpg" alt="">
+                                 <img src="./frontend/assets/img/product/details/5/nav/product-details-nav-3.jpg" alt="">
                               </button>
                               <button class="nav-link" id="nav-4-tab" data-bs-toggle="tab" data-bs-target="#nav-4" type="button" role="tab" aria-controls="nav-4" aria-selected="false">
-                                 <img src="assets/img/product/details/4/nav/product-details-nav-4.jpg" alt="">
+                                 <img src="./frontend/assets/img/product/details/4/nav/product-details-nav-4.jpg" alt="">
                               </button>
                            </div>
                         </nav>
                         <div class="tab-content m-img" id="productDetailsNavContent">
                            <div class="tab-pane fade show active" id="nav-1" role="tabpanel" aria-labelledby="nav-1-tab" tabindex="0">
                               <div class="tp-product-details-nav-main-thumb">
-                                 <img src="assets/img/product/details/5/main/product-details-main-1.jpg" alt="">
+                                 <img src="./frontend/assets/img/product/details/5/main/product-details-main-1.jpg" alt="">
                               </div>
                            </div>
                            <div class="tab-pane fade" id="nav-2" role="tabpanel" aria-labelledby="nav-2-tab" tabindex="0">
                               <div class="tp-product-details-nav-main-thumb">
-                                 <img src="assets/img/product/details/5/main/product-details-main-2.jpg" alt="">
+                                 <img src="./frontend/assets/img/product/details/5/main/product-details-main-2.jpg" alt="">
                               </div>
                            </div>
                            <div class="tab-pane fade" id="nav-3" role="tabpanel" aria-labelledby="nav-3-tab" tabindex="0">
                               <div class="tp-product-details-nav-main-thumb">
-                                 <img src="assets/img/product/details/5/main/product-details-main-3.jpg" alt="">
+                                 <img src="./frontend/assets/img/product/details/5/main/product-details-main-3.jpg" alt="">
                               </div>
                            </div>
                            <div class="tab-pane fade" id="nav-4" role="tabpanel" aria-labelledby="nav-4-tab" tabindex="0">
                               <div class="tp-product-details-nav-main-thumb">
-                                 <img src="assets/img/product/details/5/main/product-details-main-4.jpg" alt="">
+                                 <img src="./frontend/assets/img/product/details/5/main/product-details-main-4.jpg" alt="">
                               </div>
                            </div>
                          </div>
@@ -4078,7 +4078,7 @@
                            <div class="tp-footer-widget-content">
                               <div class="tp-footer-logo">
                                  <a href="index.html">
-                                    <img src="assets/img/logo/logo.svg" alt="logo">
+                                    <img src="./frontend/assets/img/logo/logo.svg" alt="logo">
                                  </a>
                               </div>
                               <p class="tp-footer-desc">We are a team of designers and developers that create high quality WordPress</p>
@@ -4177,7 +4177,7 @@
                         <div class="col-md-6">
                            <div class="tp-footer-payment text-md-end">
                               <p>
-                                 <img src="assets/img/footer/footer-pay-2.png" alt="">
+                                 <img src="./frontend/assets/img/footer/footer-pay-2.png" alt="">
                               </p>
                            </div>
                         </div>

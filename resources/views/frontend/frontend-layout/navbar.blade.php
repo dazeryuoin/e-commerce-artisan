@@ -1,4 +1,3 @@
-<header>
          <div id="header-sticky" class="tp-header-area p-relative tp-header-sticky tp-header-height">
             <div class="tp-header-5 pl-25 pr-25" data-bg-color="#678E61">
                <div class="container-fluid">
@@ -396,4 +395,3 @@
                </nav>
             </div>
          </div>
-      </header>

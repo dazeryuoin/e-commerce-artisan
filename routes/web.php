@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BerandaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,7 +20,7 @@ Route::get('/', function () {
 
 Route::redirect('/', '/beranda');
 
-Route::get('/beranda',[]);
+Route::get('/beranda', [BerandaController::class, 'index']);
 Route::get('/portal', function () {
     return view('index');
 });
